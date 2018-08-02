@@ -1,0 +1,27 @@
+body
+{
+    background-color: gray ;  /*Definiujemy kolor naszej strony*/
+    font-family: verdana ; /*Ustawiamy czcionkę na naszej stronie internetowej*/
+    font-size: 20px ; /*Ustawiamy rozmiar czcionki na naszej stronie internetowej*/
+    color: white ; /*Ustawiamy kolor tekstu na naszej stronie internetowej*/
+}
+
+h1
+{
+    font-size : 48px ; /*Ustawiamy kolor tylko dla nagłówka h1 na naszej stronie internetowej*/
+}
+
+a:link
+{
+    color:green ;  /*Ustawiamy kolor linku , który nie został jeszcze odwiedzony*/
+}
+
+a:visited
+{
+    color:green ; /*Ustawiamy kolor linku , który został już odwiedzony*/
+}
+
+a:hover
+{
+    color:red ; /*Ustawiamy kolor linku po najechaniu na niego myszką*/
+}
